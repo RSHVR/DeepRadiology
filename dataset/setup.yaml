@@ -1,0 +1,23 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:/Users/Alex/Desktop/SENECA/Semester 9/BDC800_Capstone/DeepRadiology/DeepRadiology/dataset  # dataset root dir
+train: images/test  # train images (relative to 'path') 4 images
+val: images/train  # val images (relative to 'path') 4 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: Aortic enlargement
+  1: Atelectasis
+  2: Calcification
+  3: Cardiomegaly
+  4: Consolidation
+  5: ILD
+  6: Infiltration
+  7: Lung Opacity
+  8: Nodule/Mass
+  9: Other lesion
+  10: Pleural effusion
+  11: Pleural thickening
+  12: Pneumothorax
+  13: Pulmonary fibrosis
+  14: No finding
