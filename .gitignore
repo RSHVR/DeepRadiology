@@ -1,3 +1,5 @@
 images/
 .ipynb_checkpoints/
 *.conda_trash
+__pycache__/dicom_convert.cpython-311.pyc
+__pycache__/dicom_convert.cpython-311.pyc
